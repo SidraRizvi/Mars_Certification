@@ -444,7 +444,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Feature\Login.cs" />
     <Compile Include="SpecflowPages\Helpers\CommonMethods.cs" />
     <Compile Include="SpecflowPages\Helpers\ConstantHelpers.cs" />
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
@@ -458,7 +457,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Feature\Certification.feature" />
+    <None Include="Feature\Education.feature" />
+    <None Include="Feature\Join.feature" />
+    <None Include="Feature\Language.feature" />
     <None Include="Feature\Login.feature" />
+    <None Include="Feature\Skill.feature" />
     <None Include="SpecflowTests\Data\Data.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
