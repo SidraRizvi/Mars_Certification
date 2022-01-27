@@ -231,35 +231,35 @@ testRunner.And("<Message box> should be displayed", ((string)(null)), ((TechTalk
 #line 33
 testRunner.And("Message box should disappear within 3 seconds", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "University",
                             "Country",
                             "Title",
                             "Degree",
                             "Graduation Year",
                             "Message"});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Massey",
                             "New Zealand",
                             "MBA",
                             "Bachelor",
                             "2015",
                             "Education has been added"});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "",
                             "New Zealand",
                             "B.E",
                             "Bachelor",
                             "2020",
                             "Please enter all the fields"});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Massey",
                             "New Zealand",
                             "BA",
                             "Bachelor",
                             "2018",
                             "This information is already exist."});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Massey",
                             "New Zealand",
                             "MBA",
@@ -267,7 +267,7 @@ testRunner.And("Message box should disappear within 3 seconds", ((string)(null))
                             "2015",
                             "Duplicated data"});
 #line 34
-testRunner.And("Add New Button should be visible for adding another", ((string)(null)), table1, "And ");
+testRunner.And("Add New Button should be visible for adding another", ((string)(null)), table4, "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -314,21 +314,21 @@ this.ScenarioInitialize(scenarioInfo);
 #line 47
   testRunner.Then("I should see the message <Message>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "University",
                             "Country",
                             "Title",
                             "Degree",
                             "Graduation Year",
                             "Message"});
-                table2.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Massey",
                             "New Zealand",
                             "B.A",
                             "Master",
                             "2018",
                             "Education has been updated"});
-                table2.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Massey",
                             "New Zealand",
                             "B.A",
@@ -337,7 +337,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "This information is already exist."});
 #line 48
   testRunner.And("updated details <University>, <Country>, <Title>, <Degree>, <Graduation Year> sho" +
-                        "uld see on my profile page", ((string)(null)), table2, "And ");
+                        "uld see on my profile page", ((string)(null)), table5, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

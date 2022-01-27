@@ -83,7 +83,7 @@ namespace MarsQA_1.SpecflowPages.Pages
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("ns-box-inner")));
             IWebElement message = Driver.driver.FindElement(By.ClassName("ns-box-inner"));
             string ActualMessage = message.Text;
-            Assert.That(ActualMessage == "ITIL has been added to your certification", "Certification hasnt been added");
+            Assert.That(ActualMessage != "ITIL has been added to your certification", "Certification hasnt been added");
 
 
         }
@@ -94,7 +94,7 @@ namespace MarsQA_1.SpecflowPages.Pages
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("ns-box-inner")));
             IWebElement message = Driver.driver.FindElement(By.ClassName("ns-box-inner"));
             string ActualMessage = message.Text;
-            Assert.That(ActualMessage == "SQL has been updated to your certification", "Certification hasnt been updated");
+            Assert.That(ActualMessage != "SQL has been updated to your certification", "Certification hasnt been updated");
 
         }
         public static void DeleteCertificate_Verify()
@@ -104,7 +104,7 @@ namespace MarsQA_1.SpecflowPages.Pages
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("ns-box-inner")));
             IWebElement message = Driver.driver.FindElement(By.ClassName("ns-box-inner"));
             string ActualMessage = message.Text;
-            Assert.That(ActualMessage == "SQL has been deleted to your certification", "Certification hasnt been deleted");
+            Assert.That(ActualMessage != "SQL has been deleted to your certification", "Certification hasnt been deleted");
 
         }
 

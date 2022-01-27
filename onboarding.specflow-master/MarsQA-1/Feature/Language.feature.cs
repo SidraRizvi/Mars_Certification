@@ -177,36 +177,36 @@ testRunner.And("<Message box> should be displayed", ((string)(null)), ((TechTalk
 #line 23
 testRunner.And("Message box should disappear within 3 seconds", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                             "Add Language",
                             "Language Level",
                             "Mesage Box"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "English",
                             "Basic",
                             "English has been added to your languages"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "English",
                             "Conversational",
                             "Duplicated Data"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "English",
                             "Fluent",
                             "Duplicated Data"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "English",
                             "Native",
                             "Duplicated Data"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "English",
                             "Basic",
                             "This laguage is already exists in your language list"});
-                table5.AddRow(new string[] {
+                table8.AddRow(new string[] {
                             "French",
                             "Basic",
                             "French has been added to your languages"});
 #line 24
-testRunner.And("Add New Button should be visible for adding another language", ((string)(null)), table5, "And ");
+testRunner.And("Add New Button should be visible for adding another language", ((string)(null)), table8, "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -298,40 +298,40 @@ testRunner.And("I Click the Update Button", ((string)(null)), ((TechTalk.SpecFlo
 #line 49
 testRunner.Then("Profile details should be updated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "Language",
                             "Language Level",
                             "Mesage Box"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "",
                             "",
                             "Please enter language and experience level"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "English",
                             "",
                             "Please enter language and experience level"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "",
                             "Fluent",
                             "Please enter language and experience level"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "English",
                             "Fluent",
                             "English has been added to your languages"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "French",
                             "Fluent",
                             "French has been added to your languages"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "English",
                             "Fluent",
                             "This laguage is already exists in your language list"});
-                table6.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "French",
                             "Fluent",
                             "Duplicated Data"});
 #line 50
-testRunner.And("<Message box> should be displayed", ((string)(null)), table6, "And ");
+testRunner.And("<Message box> should be displayed", ((string)(null)), table9, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

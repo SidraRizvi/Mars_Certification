@@ -252,48 +252,48 @@ this.ScenarioInitialize(scenarioInfo);
 #line 36
  testRunner.When("I click the Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                             "emailaddress",
                             "password",
                             "error message"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "sidra_riz@yahoo.com",
                             "123456",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "sidra_riz@yahoo.com",
                             "67*5#sdd",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "adc_123@gmail.com",
                             "sid6638659",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "sidra_riz@yahoo.com",
                             "",
                             "password is mandatory"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "",
                             "sid6638659",
                             "emailaddress is mandatory"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "sidra_riz@yahoo.com",
                             "sid6628659",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "sidra-riz@yahoo.com",
                             "sid6638659",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "$%#@#$sidra_riz@yahoo.com",
                             "%#*#**#sid6638659",
                             "Invalid emailaddress or password"});
-                table7.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "SIDRA_RIZ@YAHOO.COM",
                             "SID6638659",
                             "Invalid emailaddress or password"});
 #line 37
- testRunner.Then("I should be informed that login is unsuccessful by an <error message>", ((string)(null)), table7, "Then ");
+ testRunner.Then("I should be informed that login is unsuccessful by an <error message>", ((string)(null)), table10, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

@@ -452,11 +452,11 @@
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
     <Compile Include="SpecflowPages\Utils\Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecflowTests\CertificationSteps.cs" />
+    <Compile Include="SpecflowTests\Steps\Certification_Steps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Feature\Certification.feature" />
+    <None Include="Feature\CertificateDetails.feature" />
     <None Include="Feature\Education.feature" />
     <None Include="Feature\Join.feature" />
     <None Include="Feature\Language.feature" />

@@ -117,40 +117,40 @@ this.ScenarioInitialize(scenarioInfo);
 #line 11
     testRunner.And("I Click Add Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                             "SkillName",
                             "SkillLevel",
                             "Message"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "",
                             "Choose Skill Level",
                             "Please enter skill and experience level"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "Graphic Design",
                             "Choose Skill Level",
                             "Please enter skill and experience level"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "",
                             "Expert",
                             "Please enter skill and experience level"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "Graphic Design",
                             "Beginner",
                             "Graphic Deign has been added to your skills"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "Digital Marketing",
                             "Beginner",
                             "Digital Marketing has been added to your skills"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "Graphic Design",
                             "Beginner",
                             "This skill already exist in your skill list"});
-                table8.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "Graphic Design",
                             "Intermediate",
                             "Duplicated Data"});
 #line 12
-    testRunner.Then("Verify the <Message> should be available on screen", ((string)(null)), table8, "Then ");
+    testRunner.Then("Verify the <Message> should be available on screen", ((string)(null)), table11, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -242,32 +242,32 @@ testRunner.And("Clicks the Update Button", ((string)(null)), ((TechTalk.SpecFlow
 #line 39
 testRunner.Then("Profile details should be updated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                             "SkillName",
                             "SkillLevel",
                             "Message"});
-                table9.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             "Graphic Design",
                             "Intermediate",
                             "Graphic Deign has been updated to your skills"});
-                table9.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             "Graphic Design",
                             "Intermediate",
                             "This skill already exist in your skill list"});
-                table9.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             "Graphic Design",
                             "Choose Skill Level",
                             "Please enter skill and experience level"});
-                table9.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             "",
                             "Expert",
                             "Please enter skill and experience level"});
-                table9.AddRow(new string[] {
+                table12.AddRow(new string[] {
                             "Graphic Design",
                             "Beginner",
                             "Graphic Deign has been added to your skills"});
 #line 40
-testRunner.And("<Message box> should be displayed saying the skill has been updated", ((string)(null)), table9, "And ");
+testRunner.And("<Message box> should be displayed saying the skill has been updated", ((string)(null)), table12, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

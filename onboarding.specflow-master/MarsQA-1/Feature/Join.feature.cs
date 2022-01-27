@@ -168,140 +168,140 @@ this.ScenarioInitialize(scenarioInfo);
 #line 18
    testRunner.Then("<Message> should be displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "Firstname",
                             "Lastname",
                             "Emailaddress",
                             "Password",
                             "Confirmpassword",
                             "Message"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "123456",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "#$%@#",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "This is a required field"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "123$@^",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Registeration sucessful"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "This name has already been used to register an account"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "123456",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "#$%@#",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "123$@^",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "Names must contain at least one letter"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "This is a required field"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "sid6638659",
                             "sid6638659",
                             "This email has already been used to register an account"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "abcd@123.com",
                             "123456",
                             "123456",
                             "This email is not valid"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "abcd123.com",
                             "123456",
                             "123456",
                             "Please enter a valid email address"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "",
                             "123456",
                             "123456",
                             "This is a required field"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "12345",
                             "12345",
                             "Password must be at least 6 characters"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "",
                             "",
                             "These fields are required"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
                             "1234567",
                             "123456",
                             "password does not match password"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidr_riz@yahoo.com",
                             "123&*%",
                             "123&*%",
                             "Registeration sucessful"});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "Sidra",
                             "Rizvi",
                             "sidra_riz@yahoo.com",
@@ -309,7 +309,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "1234567",
                             "Does not match password"});
 #line 19
-   testRunner.And("I should be directed to the SignIn page", ((string)(null)), table3, "And ");
+   testRunner.And("I should be directed to the SignIn page", ((string)(null)), table6, "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -500,18 +500,18 @@ testRunner.When("I enter Home URL in chrome browser of <version>", ((string)(nul
 #line 73
 testRunner.And("Presses the Enter Key", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "version"});
-                table4.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "95.0.4638"});
-                table4.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "96.0.4664"});
-                table4.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "97.0.4692"});
-                table4.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "98"});
 #line 74
-testRunner.Then("The Login feature should work the same way in all web version", ((string)(null)), table4, "Then ");
+testRunner.Then("The Login feature should work the same way in all web version", ((string)(null)), table7, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

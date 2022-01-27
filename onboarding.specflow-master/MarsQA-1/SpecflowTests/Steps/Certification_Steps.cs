@@ -4,35 +4,30 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
-namespace MarsQA_1.SpecflowTests
+namespace MarsQA_1.SpecflowTests.Steps
 {
     [Binding]
-    public class CertificationSteps
+    public class Certification_Steps
     {
-      
-            
 
-        [Given(@"Certification Details")]
-        public void GivenCertificationDetails()
+        [Given(@"I am on the Certification page")]
+        public void GivenIAmOnTheCertificationPage()
         {
             //Read data from excel spreadsheet
             ExcelLibHelper.PopulateInCollection($@"{ConstantHelpers.DataDataPath}", "Certifications");
-           
+
             //Assertion to varify sucessful Login
-            
+
             Certification.AddCertification();
             Certification.AddCertificate_Verify();
-
         }
-               
-
-       
 
 
-        [Given(@"Modified Certification details")]
-        public void GivenModifiedCertificationDetails()
+        [Given(@"I want to update Certification details")]
+        public void GivenIWantToUpdateCertificationDetails()
         {
             //Read data from excel spreadsheet
             ExcelLibHelper.PopulateInCollection($@"{ConstantHelpers.DataDataPath}", "EditCertifications");
@@ -40,13 +35,34 @@ namespace MarsQA_1.SpecflowTests
             Certification.EditCertificate_Verify();
         }
 
-        [Given(@"Delete Certification")]
-        public void GivenDeleteCertification()
+
+        [Given(@"I want to delete certification details")]
+        public void GivenIWantToDeleteCertificationDetails()
         {
             Certification.DeleteCertification();
             Certification.EditCertificate_Verify();
         }
 
 
+
+       
+
+
+
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
